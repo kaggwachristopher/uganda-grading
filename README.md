@@ -1,2 +1,2 @@
-# uganda-grading
+# uganda-grading application
 For CI/CD
