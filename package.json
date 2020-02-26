@@ -4,7 +4,12 @@
   "description": "learning CI/CD",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls",
+    "jest-coverage": "npm run test -- --coverage"
+  },
+  "jest": {
+    "collectCoverage": true
   },
   "repository": {
     "type": "git",
@@ -18,5 +23,8 @@
   "homepage": "https://github.com/danieljbuyinza/uganda-grading#readme",
   "dependencies": {
     "jest": "^25.1.0"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.9"
   }
 }
