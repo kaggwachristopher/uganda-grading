@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/danieljbuyinza/uganda-grading/issues"
   },
-  "homepage": "https://github.com/danieljbuyinza/uganda-grading#readme"
+  "homepage": "https://github.com/danieljbuyinza/uganda-grading#readme",
+  "dependencies": {
+    "jest": "^25.1.0"
+  }
 }
