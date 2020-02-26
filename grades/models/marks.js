@@ -34,7 +34,7 @@ class Marks {
   }
 
   validate() {
-    valid = true;
+    var valid = true;
     if(this.student === null) {
       valid = false;
       console.log("Student doesn't exist");
