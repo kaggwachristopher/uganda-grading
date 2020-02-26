@@ -5,5 +5,5 @@ test("testing that the marks are a number", ()=>{
 })
 
 test("testing if the mark is F", ()=>{
-  expect(marks.compute
+  expect(marks.computeMarks()).toBe("F");
 })
