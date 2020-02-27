@@ -1,0 +1,30 @@
+{
+  "name": "uganda-grading",
+  "version": "1.0.0",
+  "description": "learning CI/CD",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls",
+    "jest-coverage": "npm run test -- --coverage"
+  },
+  "jest": {
+    "collectCoverage": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danieljbuyinza/uganda-grading.git"
+  },
+  "author": "danieljbuyinza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danieljbuyinza/uganda-grading/issues"
+  },
+  "homepage": "https://github.com/danieljbuyinza/uganda-grading#readme",
+  "dependencies": {
+    "jest": "^25.1.0"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.9"
+  }
+}
